@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровые документы</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .container {
+            padding: 15px;
+        }
+        .document {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+        .document img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .update-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            background-color: #008cba;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Цифровые документы</div>
+    <div class="container">
+        <div class="document">
+            Удостоверение личности
+        </div>
+        <div class="document">
+            Водительские права
+        </div>
+        <div class="document">
+            Паспорт вакцинации
+        </div>
+        <div class="document">
+            Паспорт гражданина РК
+        </div>
+        <div class="document">
+            Справки<br/>
+            <!-- <span style="font-size: 14px; color: gray;">Социальные, по недвижимости и медицинские</span> -->
+        </div>
+        <button class="update-btn">Обновить список документов</button>
+    </div>
+
+</body>
+</html>
+
